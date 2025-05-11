@@ -1,0 +1,21 @@
+CS Drone Delivery – Complexity Analysis
+Time Complexity
+O(N × I)
+
+N = number of nests (candidate solutions)
+
+I = number of iterations
+
+Each cuckoo performs a Lévy flight and a comparison per iteration, both in constant time.
+
+Space Complexity
+O(N)
+
+Each cuckoo (nest) stores only its position (x, y) and fitness value.
+
+Notes
+Suitable for small to medium grid-based optimization problems.
+
+Can be extended with adaptive step sizes, multiple delivery points, or dynamic constraints.
+
+Lévy flight introduces random long-range jumps, improving exploration in large spaces.
