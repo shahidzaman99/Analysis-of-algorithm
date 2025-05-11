@@ -1,0 +1,22 @@
+✅ Step-by-Step Pseudocode for Cuckoo Search
+Define the target delivery location (e.g., (7, 5)).
+
+Initialize a population of nests (cuckoo solutions) with random positions on a 2D grid.
+
+For each nest, calculate the fitness (Euclidean distance to the target).
+
+Repeat for a number of iterations:
+
+For each cuckoo:
+
+Generate a new solution using Lévy flight (a random long jump in space).
+
+Calculate the fitness of the new solution.
+
+Randomly select an existing nest.
+
+If the new solution has better fitness, replace the selected nest.
+
+Abandon a fraction pa of the worst nests and generate new random positions.
+
+Print the final positions and fitness (distance to the target) of all nests.

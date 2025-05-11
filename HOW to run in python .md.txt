@@ -1,0 +1,39 @@
+💻 How to Run (Python 3.x)
+Step 1: Install Python
+Make sure Python 3.x is installed on your system. You can download it from https://www.python.org.
+
+Step 2: Load the Code
+Open any Python IDE (such as VS Code, PyCharm, or IDLE), or use a terminal-based editor.
+
+Create a new file and paste the contents of cuckoo_search.py located in the code/ folder.
+
+Or, open it using:
+
+bash
+Copy
+Edit
+python cuckoo_search.py
+Step 3: Save the File
+Save it as cuckoo_search.py.
+
+Step 4: Run the Code
+In terminal or command prompt:
+
+bash
+Copy
+Edit
+python cuckoo_search.py
+Or, press Run in your IDE.
+
+The console will display the drone positions and distances after each iteration.
+
+📌 Features
+Models drones as cuckoos in the Cuckoo Search algorithm.
+
+Uses Euclidean distance as the fitness function.
+
+Implements Lévy flights to explore the solution space.
+
+Replaces worst nests with new ones for better convergence.
+
+Prints drone (nest) positions and distance to the target in each iteration.
